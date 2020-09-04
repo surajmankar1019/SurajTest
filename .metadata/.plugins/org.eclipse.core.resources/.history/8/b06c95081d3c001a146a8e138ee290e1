@@ -1,0 +1,33 @@
+package com.cjc;
+
+import java.util.Scanner;
+
+public class ReverseOrder 
+{
+     public static void main(String[] args) 
+     {
+	    int arr[]=new int[5];
+	    int i;
+	    Scanner sc=new Scanner(System.in);
+	    
+	    System.out.println("Enter Element of Array");
+	    
+	    for(i=0;i<5;i++)
+	    {
+	    	arr[i]=sc.nextInt();
+	    }
+	    
+	    System.out.println("\n Content of the array -");
+	    
+	    for(i=0;i<5;i++)
+	    {
+	    	System.out.println(arr[i]);
+	    }
+	    
+	    System.out.println("\nContent of the array in reverse order");
+	    for(i=4;i>=0;i--)
+	    {
+	    	System.out.println(arr[i]);
+	    }
+	 }
+}

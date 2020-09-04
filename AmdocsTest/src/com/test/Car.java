@@ -1,0 +1,32 @@
+package com.test;
+
+public class Car {
+
+	private String name;
+
+	public Car(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static void main(String args[]) {
+		Car c = new Car("honda");
+		foo(c);
+		System.out.println(c.getName().equals("kia"));
+	}
+
+	public static void foo(Car car) {
+		System.out.println(car.getName().equals("honda"));
+		car.setName("kia");
+
+	}
+
+}

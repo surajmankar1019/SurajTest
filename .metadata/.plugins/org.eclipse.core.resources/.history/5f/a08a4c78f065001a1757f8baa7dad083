@@ -1,0 +1,24 @@
+package com.array;
+
+import java.util.Scanner;
+
+public class ArraySumAvg 
+{
+    public static void main(String[] args) 
+    {
+	    int num=0;
+	    
+	    int [] myArray=new int[num];
+	    
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter Any Input Number");
+	    
+	    num=sc.nextInt();
+	    
+	    for(int i=0;i<num;i ++)
+	    {
+	    	System.out.println("Enter Value");
+	    	myArray[i]=sc.nextInt();
+	    }
+	}
+}

@@ -1,0 +1,19 @@
+package com.armstrong;
+
+import java.util.Scanner;
+
+public class Armstrong 
+{
+	
+	
+	
+   public static void main(String[] args) 
+   {
+	   int num,original,result,d1,d2,d3;
+	   
+	   Scanner sc=new Scanner(System.in);
+	   System.out.println("Enter A Three Digit number To Check An Armstrong or Not");
+	   num = sc.nextInt();
+	   original=num;
+   }
+}

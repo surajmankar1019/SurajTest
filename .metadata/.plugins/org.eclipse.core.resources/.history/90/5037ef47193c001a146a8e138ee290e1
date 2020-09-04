@@ -1,0 +1,18 @@
+package com.cjc;
+
+import java.util.Scanner;
+
+public class ReverseOrder 
+{
+     public static void main(String[] args) 
+     {
+	    int arr[]=new int[5];
+	    int i;
+	    Scanner sc=new Scanner(System.in);
+	    
+	    for(i=6;i>=1;i--)
+	    {
+	    	System.out.println("Reverse order is:"+i);
+	    }
+	 }
+}
